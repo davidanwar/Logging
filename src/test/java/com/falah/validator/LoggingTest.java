@@ -11,5 +11,6 @@ public class LoggingTest {
     void testLog() {
         System.out.println("Hello Logger");
         log.info("Hello Logger");
+        log.trace("Dari Trace");
     }
 }
